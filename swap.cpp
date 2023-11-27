@@ -1,23 +1,24 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 int main()
 {
 	int a,b;
-	
-	cout<<"Enter first number :";
-	cin>>a;
-	
-	cout<<"Enter second number :";
-	cin>>b;
-	
-	cout<<"Values of a="<<a<<"and b="<<b<<"before swapping.\n";
-	int swap=0;
-	
-	swap=a;
-	a=b;
-	b=swap;
-	cout<<"Values of a="<<a<<"and b="<<b<<"after swapping.";
-}
 
 	
+	printf("Enter first number :");
+	scanf("%d",&a);
+	
+	printf("Enter second number :");
+	scanf("%d",&b);
+	
+	printf("The value before swapping is a=%d and b=%d \n",a,b);
+	int temp;
+	
+	temp=a;
+	
+	a=b;
+	
+	b=temp;
+	
+	printf("The value after swapping is a=%d and b=%d ",a,b);
+}
