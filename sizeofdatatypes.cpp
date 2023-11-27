@@ -1,15 +1,11 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 int main()
 {
-	int a;
-    
-    cout<<"\nThe size of integer is :"<<sizeof(a)<<endl;
-    cout<<"The size of float is :"<<sizeof(float(a))<<endl;
-    cout<<"The size of double is :"<<sizeof(double(a))<<endl;
-    cout<<"The size of char is :"<<sizeof(char(a))<<endl;
+	int i;float f;double d;char c;
+	
+	printf("\nThe value of int i is %ld",sizeof(i));
+	printf("\nThe value of float f is %ld",sizeof(f));
+	printf("\nThe value of double d is %ld",sizeof(d));
+	printf("\nThe value of char c is %ld",sizeof(c));
 }
-    
-	
-	
