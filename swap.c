@@ -4,7 +4,7 @@ int main()
 {
 	int a,b;
 
-	
+	printf("@Author - Yash Lade !!\n");
 	printf("Enter first number :");
 	scanf("%d",&a);
 	
