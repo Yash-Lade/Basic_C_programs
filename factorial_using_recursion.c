@@ -5,6 +5,9 @@ int fact(int);
 int main()
 {
 	int n,b;
+
+	printf("@Author - Yash Lade !!/n";
+	
 	
 	printf("Enter the number :");
 	scanf("%d",&n);
